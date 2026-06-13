@@ -4,7 +4,7 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 from telegram.ext import ApplicationBuilder, CommandHandler
 
 # Твой токен
-TOKEN = '8820214228:AAFeq2n1P8rtJMBnQr-Br_gDdHgfyBTr7jM'
+TOKEN = '8820214228:AAFeq2n1P8rtJMBnQr-Br_gDdHgfyBtR7jM'
 
 # 1. Сервер для "проверки пульса" (Health Check)
 class HealthCheck(BaseHTTPRequestHandler):
